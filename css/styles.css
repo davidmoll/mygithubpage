@@ -26,6 +26,7 @@ body {
   to {
     stroke-dashoffset: 0;
   }
+}
 
 .jumbotron {
 	position: relative;
