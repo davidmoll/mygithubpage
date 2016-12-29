@@ -17,7 +17,7 @@ body {
 }
 
 .path {
-  stroke-dasharray: 1000;
+  stroke-dasharray: 50;
   stroke-dashoffset: 1000;
   animation: dash 5s linear forwards;
 }
