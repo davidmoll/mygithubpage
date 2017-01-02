@@ -10,9 +10,9 @@
 }
 
 .path {
-  stroke-dasharray: 3000;
-  stroke-dashoffset: 3000;
-  animation: dash 10s linear forwards;
+  stroke-dasharray: 1340;
+  stroke-dashoffset: 1340;
+  animation: dash 5s linear forwards;
 }
 
 @keyframes dash {
@@ -22,7 +22,7 @@
 }
 
 .body {
-     background: linear-gradient(to bottom, #166cc9 , yellow); /* Standard syntax */
+     background: linear-gradient(to bottom, #ed8f3d, #166cc9); /* Standard syntax */
 }
 
 .jumbotron {
@@ -40,4 +40,14 @@
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.navitem {
+  color: white;
+}
+
+.navbar2 {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
 }
